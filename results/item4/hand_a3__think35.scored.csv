@@ -1,0 +1,401 @@
+id,source,sample,correct,pred,cut,n_tokens,closed_think,kind,words,dup_tail,onset_char,onset_rel,period,ws_tail
+gsm8k_test_2,gsm8k,0,1,70000,0,18450,1,finished,6403,0.436,-1,,,False
+gsm8k_test_25,gsm8k,0,1,2,0,5124,1,finished,2629,0.004,-1,,,False
+gsm8k_test_27,gsm8k,0,0,,1,32768,0,cut: loop,17310,1.0,0,0.0,40.0,False
+gsm8k_test_28,gsm8k,0,1,25,0,11517,1,finished,6396,0.62,-1,,,False
+gsm8k_test_33,gsm8k,0,1,70,0,19431,1,finished,10716,0.64,-1,,,False
+gsm8k_test_44,gsm8k,0,0,,1,32768,0,cut: loop,18007,0.998,11554,0.10405555555555555,75.0,False
+gsm8k_test_46,gsm8k,0,0,,1,32768,0,cut: loop,17041,1.0,20501,0.20329928378537043,138.0,False
+gsm8k_test_54,gsm8k,0,0,55,0,9256,1,finished,5696,0.468,-1,,,False
+gsm8k_test_67,gsm8k,0,1,595,0,15688,1,finished,7308,0.448,-1,,,False
+gsm8k_test_74,gsm8k,0,0,,1,32768,0,cut: loop,9596,1.0,26650,0.4746063197413703,6.0,False
+gsm8k_test_79,gsm8k,0,1,70,0,8949,1,finished,4909,0.33,-1,,,False
+gsm8k_test_80,gsm8k,0,1,10,0,14274,1,finished,7792,0.462,-1,,,False
+gsm8k_test_82,gsm8k,0,0,,1,32768,0,cut: loop,19688,1.0,12261,0.10436461561912505,69.0,False
+gsm8k_test_92,gsm8k,0,1,4,0,9816,1,finished,5581,0.576,-1,,,False
+gsm8k_test_93,gsm8k,0,0,,1,32768,1,cut: loop,17941,1.0,20182,0.12228169956507193,94.0,False
+gsm8k_test_118,gsm8k,0,1,4,0,13533,1,finished,7265,0.224,-1,,,False
+gsm8k_test_125,gsm8k,0,0,,1,32768,0,cut: loop,17036,0.998,25569,0.24916319220153854,96.0,False
+gsm8k_test_127,gsm8k,0,1,120,0,6556,1,finished,3585,0.058,-1,,,False
+gsm8k_test_128,gsm8k,0,1,880,0,7189,1,finished,3713,0.046,-1,,,False
+gsm8k_test_141,gsm8k,0,0,,1,32768,0,cut: loop,16842,1.0,31582,0.2883872883872884,8.0,False
+gsm8k_test_143,gsm8k,0,0,15,0,15256,1,finished,8197,0.844,45064,0.945054945054945,46.0,False
+gsm8k_test_147,gsm8k,0,0,,1,32768,0,cut: loop,20364,0.998,21389,0.16618362234120942,104.0,False
+gsm8k_test_151,gsm8k,0,0,,1,32768,0,cut: loop,16965,0.998,10411,0.1093878995164524,135.0,False
+gsm8k_test_161,gsm8k,0,1,32,0,9392,1,finished,4804,0.396,-1,,,False
+gsm8k_test_164,gsm8k,0,0,,1,32768,0,cut: loop,18639,1.0,243,0.0018784886217260628,82.0,False
+gsm8k_test_168,gsm8k,0,1,18,0,2302,1,finished,1184,0.022,-1,,,False
+gsm8k_test_183,gsm8k,0,0,,1,32768,0,cut: loop,17772,1.0,22580,0.17326203208556148,123.0,False
+gsm8k_test_186,gsm8k,0,1,5,0,17074,1,finished,9405,0.22,-1,,,False
+gsm8k_test_187,gsm8k,0,1,106,0,14210,1,finished,7440,0.562,-1,,,False
+gsm8k_test_191,gsm8k,0,0,,1,32768,1,cut: loop,18871,0.998,55147,0.49257845631891434,176.0,False
+gsm8k_test_194,gsm8k,0,1,10,0,7036,1,finished,4120,0.15,-1,,,False
+gsm8k_test_202,gsm8k,0,1,100,0,1806,1,finished,1075,0.024,-1,,,False
+gsm8k_test_206,gsm8k,0,0,,1,32768,0,cut: loop,13727,1.0,36089,0.43841107871720114,7.0,False
+gsm8k_test_207,gsm8k,0,1,2600,0,4019,1,finished,1996,0.02,-1,,,False
+gsm8k_test_223,gsm8k,0,1,20000,0,14769,1,finished,7416,0.13,-1,,,False
+gsm8k_test_236,gsm8k,0,0,,1,32768,0,cut: loop,22804,1.0,0,0.0,143.0,False
+gsm8k_test_237,gsm8k,0,1,90,0,1446,1,finished,727,0.0,-1,,,False
+gsm8k_test_239,gsm8k,0,0,,1,32768,1,cut: loop,20105,1.0,17693,0.15583640163200319,120.0,False
+gsm8k_test_240,gsm8k,0,1,21,0,6637,1,finished,3431,0.03,-1,,,False
+gsm8k_test_245,gsm8k,0,1,7,0,18816,1,finished,9283,0.178,-1,,,False
+gsm8k_test_253,gsm8k,0,1,18,0,7817,1,finished,4421,0.122,-1,,,False
+gsm8k_test_254,gsm8k,0,1,84,0,17970,1,finished,8636,0.642,-1,,,False
+gsm8k_test_255,gsm8k,0,0,96,0,10194,1,finished,5669,0.416,-1,,,False
+gsm8k_test_266,gsm8k,0,0,,1,32768,0,cut: loop,12633,0.998,13840,0.1443054015523523,32.0,False
+gsm8k_test_276,gsm8k,0,1,9,0,15304,1,finished,7458,0.34,-1,,,False
+gsm8k_test_285,gsm8k,0,1,21,1,32768,0,cut: loop,17343,1.0,2342,0.02284263959390863,32.0,False
+gsm8k_test_286,gsm8k,0,1,90,0,6938,1,finished,3491,0.07,-1,,,False
+gsm8k_test_291,gsm8k,0,1,2,0,7127,1,finished,4420,0.44,-1,,,False
+gsm8k_test_299,gsm8k,0,1,"\$31,800",0,12941,1,finished,7407,0.468,-1,,,False
+gsm8k_test_300,gsm8k,0,1,78,0,5634,1,finished,3037,0.052,-1,,,False
+gsm8k_test_306,gsm8k,0,1,10,0,12187,1,finished,7238,0.562,-1,,,False
+gsm8k_test_314,gsm8k,0,1,30,0,14436,1,finished,7719,0.604,-1,,,False
+gsm8k_test_324,gsm8k,0,0,,1,32768,0,cut: whitespace,3480,1.0,10659,0.47451770803340054,83.0,True
+gsm8k_test_331,gsm8k,0,0,,1,32768,0,cut: loop,17410,1.0,32591,0.31500316037464804,109.0,False
+gsm8k_test_346,gsm8k,0,0,,1,32768,1,cut: loop,19826,1.0,17717,0.1516221807356577,98.0,False
+gsm8k_test_349,gsm8k,0,0,,1,32768,1,cut: loop,16616,0.998,10588,0.08519477391775543,87.0,False
+gsm8k_test_358,gsm8k,0,0,,1,32768,0,cut: loop,16572,1.0,19200,0.19698158768487775,67.0,False
+gsm8k_test_369,gsm8k,0,0,,1,32768,0,cut: loop,17582,0.998,6839,0.06526315789473684,100.0,False
+gsm8k_test_376,gsm8k,0,0,,1,32768,0,cut: loop,15885,1.0,3973,0.03866985766469329,44.0,False
+gsm8k_test_378,gsm8k,0,1,15,0,10105,1,finished,5317,0.53,-1,,,False
+gsm8k_test_382,gsm8k,0,0,220,0,13764,1,finished,7307,0.77,-1,,,False
+gsm8k_test_386,gsm8k,0,1,80,0,5694,1,finished,2981,0.044,-1,,,False
+gsm8k_test_387,gsm8k,0,1,36,0,1042,1,finished,508,0.02,-1,,,False
+gsm8k_test_389,gsm8k,0,0,,1,32768,1,cut: loop,19509,0.982,7428,0.0611219362116706,77.0,False
+gsm8k_test_391,gsm8k,0,1,15,0,3140,1,finished,1483,0.016,-1,,,False
+gsm8k_test_398,gsm8k,0,1,168,0,5539,1,finished,2758,0.046,-1,,,False
+gsm8k_test_408,gsm8k,0,0,,1,32768,1,cut: loop,20840,1.0,14518,0.10704171266740267,236.0,False
+gsm8k_test_416,gsm8k,0,1,56,0,14314,1,finished,6844,0.218,-1,,,False
+gsm8k_test_418,gsm8k,0,1,40,0,23062,1,finished,10771,0.628,-1,,,False
+gsm8k_test_431,gsm8k,0,1,1,0,11381,1,finished,6256,0.712,-1,,,False
+gsm8k_test_440,gsm8k,0,1,98,0,19156,1,finished,8798,0.072,-1,,,False
+gsm8k_test_447,gsm8k,0,1,5,0,9598,1,finished,5271,0.246,-1,,,False
+gsm8k_test_448,gsm8k,0,0,,1,32768,0,cut: loop,9299,0.998,1567,0.026904864399483426,9.0,False
+gsm8k_test_451,gsm8k,0,1,11050,0,7970,1,finished,4376,0.188,-1,,,False
+gsm8k_test_452,gsm8k,0,1,50,0,6777,1,finished,3662,0.06,-1,,,False
+gsm8k_test_454,gsm8k,0,0,240,0,10222,1,finished,5189,0.234,-1,,,False
+gsm8k_test_482,gsm8k,0,1,26,0,8272,1,finished,4224,0.67,-1,,,False
+gsm8k_test_488,gsm8k,0,1,6,0,10326,1,finished,5310,0.124,-1,,,False
+gsm8k_test_491,gsm8k,0,1,16,0,7918,1,finished,4414,0.488,-1,,,False
+gsm8k_test_495,gsm8k,0,0,,1,32768,0,cut: loop,16243,0.998,9173,0.09386548410938655,106.0,False
+gsm8k_test_497,gsm8k,0,0,224,0,8308,1,finished,4765,0.506,-1,,,False
+gsm8k_test_499,gsm8k,0,1,10,0,8295,1,finished,4658,0.566,-1,,,False
+gsm8k_test_513,gsm8k,0,1,300,0,14782,1,finished,6271,0.3,-1,,,False
+gsm8k_test_530,gsm8k,0,0,,1,32768,1,cut: loop,20638,1.0,10543,0.08676263874751587,191.0,False
+gsm8k_test_532,gsm8k,0,0,9,0,20004,1,finished,9432,0.424,-1,,,False
+gsm8k_test_533,gsm8k,0,1,300,0,7087,1,finished,3456,0.03,-1,,,False
+gsm8k_test_555,gsm8k,0,1,2,0,10071,1,finished,5542,0.112,-1,,,False
+gsm8k_test_563,gsm8k,0,0,3,0,17733,1,finished,10407,0.476,-1,,,False
+gsm8k_test_564,gsm8k,0,0,,1,32768,0,cut: loop,19962,0.998,15773,0.14232022049611626,88.0,False
+gsm8k_test_575,gsm8k,0,0,12,0,13134,1,finished,7575,0.552,-1,,,False
+gsm8k_test_577,gsm8k,0,0,,1,32768,0,cut: loop,21054,0.998,11154,0.09611821162160879,250.0,False
+gsm8k_test_589,gsm8k,0,0,,1,32768,0,cut: loop,12029,0.998,38550,0.5287805689569123,6.0,False
+gsm8k_test_594,gsm8k,0,0,4200,1,32768,0,cut: loop,15008,1.0,9772,0.10952603159789348,40.0,False
+gsm8k_test_596,gsm8k,0,0,373.33,0,8102,1,finished,4564,0.506,-1,,,False
+gsm8k_test_616,gsm8k,0,1,10,0,10290,1,finished,5688,0.462,-1,,,False
+gsm8k_test_617,gsm8k,0,0,,1,32768,0,cut: loop,17021,0.998,11959,0.11984248266133772,53.0,False
+gsm8k_test_621,gsm8k,0,1,3000,0,9049,1,finished,5168,0.564,-1,,,False
+gsm8k_test_635,gsm8k,0,0,9,0,16831,1,finished,9659,0.276,-1,,,False
+gsm8k_test_637,gsm8k,0,1,17,0,19316,1,finished,10262,0.4,-1,,,False
+gsm8k_test_647,gsm8k,0,1,10,0,6099,1,finished,3898,0.368,-1,,,False
+gsm8k_test_649,gsm8k,0,0,,1,32768,0,cut: loop,14651,1.0,47829,0.2872166074842939,53.0,False
+gsm8k_test_655,gsm8k,0,1,10,0,10132,1,finished,5487,0.402,-1,,,False
+gsm8k_test_664,gsm8k,0,1,32,0,10330,1,finished,6030,0.632,-1,,,False
+gsm8k_test_666,gsm8k,0,0,,1,32768,0,cut: loop,15486,0.998,17900,0.14774856256864138,51.0,False
+gsm8k_test_676,gsm8k,0,0,,1,32768,0,cut: loop,11876,0.998,20081,0.2343921139101862,13.0,False
+gsm8k_test_681,gsm8k,0,1,298,0,15804,1,finished,8412,0.024,-1,,,False
+gsm8k_test_682,gsm8k,0,0,,1,32768,1,cut: loop,14710,1.0,22166,0.22111133782221315,214.0,False
+gsm8k_test_686,gsm8k,0,1,80,0,8631,1,finished,4779,0.21,-1,,,False
+gsm8k_test_687,gsm8k,0,1,13,0,9575,1,finished,5734,0.18,-1,,,False
+gsm8k_test_701,gsm8k,0,1,200,0,13736,1,finished,8167,0.548,19908,0.44840686274509806,84.0,False
+gsm8k_test_717,gsm8k,0,0,,1,32768,0,cut: loop,19123,1.0,18418,0.16865453023645113,63.0,False
+gsm8k_test_721,gsm8k,0,0,,0,4408,0,finished,2729,1.0,13280,0.6407053637031594,85.0,False
+gsm8k_test_724,gsm8k,0,0,,1,32768,0,cut: loop,19930,0.998,1870,0.015409325904733222,108.0,False
+gsm8k_test_731,gsm8k,0,1,1,0,11599,1,finished,6786,0.552,-1,,,False
+gsm8k_test_733,gsm8k,0,0,\frac{20}{3},0,7661,1,finished,4180,0.034,-1,,,False
+gsm8k_test_734,gsm8k,0,1,17,0,11107,1,finished,6377,0.524,-1,,,False
+gsm8k_test_758,gsm8k,0,1,133,0,6288,1,finished,3381,0.026,-1,,,False
+gsm8k_test_761,gsm8k,0,1,27,0,9779,1,finished,4811,0.148,-1,,,False
+gsm8k_test_788,gsm8k,0,1,100,0,10767,1,finished,6074,0.522,-1,,,False
+gsm8k_test_795,gsm8k,0,1,20,0,10032,1,finished,5311,0.18,-1,,,False
+gsm8k_test_801,gsm8k,0,1,1240,0,15256,1,finished,8469,0.312,-1,,,False
+gsm8k_test_816,gsm8k,0,1,4500,0,2580,1,finished,1312,0.034,-1,,,False
+gsm8k_test_829,gsm8k,0,1,14000,0,14584,1,finished,6278,0.252,-1,,,False
+gsm8k_test_839,gsm8k,0,1,2,0,9356,1,finished,5239,0.174,-1,,,False
+gsm8k_test_858,gsm8k,0,0,,1,32768,1,cut: loop,15884,1.0,11513,0.09907413239276941,146.0,False
+gsm8k_test_861,gsm8k,0,1,30,0,11753,1,finished,7162,0.236,-1,,,False
+gsm8k_test_871,gsm8k,0,1,48,0,13168,1,finished,6900,0.48,-1,,,False
+gsm8k_test_872,gsm8k,0,1,13,0,6113,1,finished,3456,0.112,-1,,,False
+gsm8k_test_889,gsm8k,0,0,,1,32768,0,cut: whitespace,15897,1.0,7727,0.07979861548143487,20.0,True
+gsm8k_test_893,gsm8k,0,1,480,0,10052,1,finished,5680,0.764,-1,,,False
+gsm8k_test_905,gsm8k,0,0,,1,32768,0,cut: loop,19460,1.0,2716,0.024109391867578267,39.0,False
+gsm8k_test_906,gsm8k,0,0,,1,32768,0,cut: loop,16441,1.0,7546,0.07934769380552513,39.0,False
+gsm8k_test_911,gsm8k,0,1,64,0,8020,1,finished,3936,0.202,-1,,,False
+gsm8k_test_917,gsm8k,0,0,,1,32768,0,cut: loop,19489,1.0,2252,0.02012113746021969,147.0,False
+gsm8k_test_922,gsm8k,0,1,60,0,9501,1,finished,5388,0.678,-1,,,False
+gsm8k_test_937,gsm8k,0,1,159,0,8194,1,finished,4667,0.05,-1,,,False
+gsm8k_test_956,gsm8k,0,0,,1,32768,0,cut: loop,16786,0.998,34539,0.3344061028666786,10.0,False
+gsm8k_test_963,gsm8k,0,1,147,0,13321,1,finished,6386,0.072,-1,,,False
+gsm8k_test_965,gsm8k,0,0,,1,32768,0,cut: loop,17939,1.0,10859,0.0957506134285077,59.0,False
+gsm8k_test_966,gsm8k,0,1,48,0,8650,1,finished,4182,0.556,-1,,,False
+gsm8k_test_975,gsm8k,0,0,,1,32768,0,cut: loop,16015,0.998,21830,0.23200899550224888,80.0,False
+gsm8k_test_976,gsm8k,0,0,285,0,17902,1,finished,8388,0.492,-1,,,False
+gsm8k_test_981,gsm8k,0,1,7,0,2046,1,finished,1074,0.008,-1,,,False
+gsm8k_test_986,gsm8k,0,1,70.00,0,6841,1,finished,3774,0.622,-1,,,False
+gsm8k_test_995,gsm8k,0,0,,1,32768,0,cut: loop,21494,1.0,14695,0.09414995113324336,152.0,False
+gsm8k_test_996,gsm8k,0,1,3,0,2508,1,finished,1293,0.01,-1,,,False
+gsm8k_test_1002,gsm8k,0,1,8,0,6691,1,finished,3585,0.018,-1,,,False
+gsm8k_test_1008,gsm8k,0,1,230,0,4576,1,finished,2311,0.044,-1,,,False
+gsm8k_test_1010,gsm8k,0,0,,1,32768,0,cut: loop,16973,1.0,5269,0.05139691146999882,19.0,False
+gsm8k_test_1031,gsm8k,0,0,1,0,8752,1,finished,5393,0.632,-1,,,False
+gsm8k_test_1033,gsm8k,0,0,,1,32768,0,cut: loop,16144,0.998,12071,0.08997955010224949,102.0,False
+gsm8k_test_1040,gsm8k,0,1,736,0,13209,1,finished,6609,0.444,-1,,,False
+gsm8k_test_1041,gsm8k,0,1,101,0,5528,1,finished,3166,0.036,-1,,,False
+gsm8k_test_1047,gsm8k,0,1,10,0,27701,1,finished,13287,0.538,-1,,,False
+gsm8k_test_1067,gsm8k,0,0,24500,0,7190,1,finished,3660,0.028,-1,,,False
+gsm8k_test_1068,gsm8k,0,0,,1,32768,0,cut: loop,19725,1.0,14802,0.09615579673394868,168.0,False
+gsm8k_test_1074,gsm8k,0,0,,1,32768,0,cut: loop,17494,0.998,8903,0.0749699776977183,184.0,False
+gsm8k_test_1084,gsm8k,0,0,,1,32768,0,cut: loop,17839,1.0,19024,0.19571556751906685,70.0,False
+gsm8k_test_1090,gsm8k,0,0,,1,32768,0,cut: loop,12188,0.998,3567,0.04925703965191692,15.0,False
+gsm8k_test_1094,gsm8k,0,0,,1,32768,0,cut: loop,18913,0.998,2546,0.02269120913995557,95.0,False
+gsm8k_test_1106,gsm8k,0,1,5,0,17615,1,finished,10545,0.24,-1,,,False
+gsm8k_test_1107,gsm8k,0,1,360,0,4554,1,finished,2350,0.016,-1,,,False
+gsm8k_test_1112,gsm8k,0,0,,1,32768,1,cut: loop,21717,0.998,9984,0.07646245969599264,113.0,False
+gsm8k_test_1114,gsm8k,0,0,-14,0,13955,1,finished,7427,0.646,29273,0.7450134770889488,151.0,False
+gsm8k_test_1120,gsm8k,0,0,,1,32768,0,cut: loop,18295,1.0,2068,0.017716535433070866,97.0,False
+gsm8k_test_1121,gsm8k,0,1,35,0,4447,1,finished,2473,0.016,-1,,,False
+gsm8k_test_1123,gsm8k,0,1,105,0,15129,1,finished,8210,0.604,-1,,,False
+gsm8k_test_1128,gsm8k,0,1,9,0,14193,1,finished,7807,0.36,-1,,,False
+gsm8k_test_1131,gsm8k,0,0,,1,32768,1,cut: loop,20493,1.0,2843,0.023479449380064434,125.0,False
+gsm8k_test_1146,gsm8k,0,1,16,0,9989,1,finished,5224,0.4,-1,,,False
+gsm8k_test_1148,gsm8k,0,1,9,0,6915,1,finished,3631,0.026,-1,,,False
+gsm8k_test_1162,gsm8k,0,0,,1,32768,0,cut: loop,17171,1.0,7658,0.0793521323700769,59.0,False
+gsm8k_test_1165,gsm8k,0,0,,1,32768,1,cut: loop,14966,0.998,32167,0.3633264255632061,23.0,False
+gsm8k_test_1166,gsm8k,0,0,350,0,26301,1,finished,12163,0.076,-1,,,False
+gsm8k_test_1175,gsm8k,0,0,,1,32768,0,cut: whitespace,6974,0.454,-1,,,True
+gsm8k_test_1178,gsm8k,0,1,17,0,11023,1,finished,6026,0.562,-1,,,False
+gsm8k_test_1179,gsm8k,0,0,36.67\%,0,9102,1,finished,4919,0.55,-1,,,False
+gsm8k_test_1187,gsm8k,0,0,,1,32768,0,cut: loop,16859,1.0,3238,0.03293377640636126,54.0,False
+gsm8k_test_1194,gsm8k,0,1,1200,0,1224,1,finished,660,0.014,-1,,,False
+gsm8k_test_1202,gsm8k,0,0,,1,32768,0,cut: loop,18367,1.0,7214,0.06781045751633986,114.0,False
+gsm8k_test_1203,gsm8k,0,0,,1,32768,0,cut: loop,18603,0.998,7386,0.06388470638847064,69.0,False
+gsm8k_test_1207,gsm8k,0,1,64,0,4466,1,finished,2310,0.002,-1,,,False
+gsm8k_test_1221,gsm8k,0,1,10,0,6645,1,finished,3986,0.026,-1,,,False
+gsm8k_test_1222,gsm8k,0,1,350,0,4194,1,finished,2388,0.04,-1,,,False
+gsm8k_test_1232,gsm8k,0,0,,1,32768,0,cut: loop,18796,1.0,15227,0.14189153227952525,13.0,False
+gsm8k_test_1233,gsm8k,0,1,81,0,8340,1,finished,4403,0.554,-1,,,False
+gsm8k_test_1235,gsm8k,0,1,60\%,0,8679,1,finished,4711,0.138,-1,,,False
+gsm8k_test_1240,gsm8k,0,0,11,0,25316,1,finished,15504,0.682,70275,0.5241014389881913,159.0,False
+gsm8k_test_1241,gsm8k,0,0,,1,32768,0,cut: whitespace,4128,0.658,-1,,,True
+gsm8k_test_1251,gsm8k,0,0,,1,32768,0,cut: loop,19063,1.0,24411,0.12174643157010916,231.0,False
+gsm8k_test_1253,gsm8k,0,0,,1,32768,0,cut: loop,16713,1.0,18050,0.16401292948641208,178.0,False
+gsm8k_test_1254,gsm8k,0,1,30,0,16671,1,finished,10812,0.248,-1,,,False
+gsm8k_test_1266,gsm8k,0,1,147,0,2380,1,finished,1180,0.038,-1,,,False
+gsm8k_test_1270,gsm8k,0,0,,1,32768,0,cut: loop,15257,1.0,43731,0.3616393442622951,155.0,False
+gsm8k_test_1280,gsm8k,0,1,7,0,2989,1,finished,1653,0.048,-1,,,False
+gsm8k_test_1290,gsm8k,0,1,90,0,6192,1,finished,3299,0.078,-1,,,False
+gsm8k_test_1298,gsm8k,0,1,31.00,0,7724,1,finished,3197,0.05,-1,,,False
+gsm8k_test_1300,gsm8k,0,0,,1,32768,0,cut: loop,16195,1.0,307,0.002841611069928342,51.0,False
+gsm8k_test_1311,gsm8k,0,0,,1,32768,0,cut: loop,16658,1.0,9887,0.09296738934598522,20.0,False
+gsm8k_test_1313,gsm8k,0,0,,1,32768,1,cut: loop,16044,1.0,69432,0.6314148531520858,45.0,False
+test/precalculus/807.json,math500,0,1,"(3, \frac{\pi}{2})",0,8649,1,finished,3978,0.024,-1,,,False
+test/intermediate_algebra/1994.json,math500,0,0,,1,32768,0,cut: loop,9014,0.998,40726,0.7100033307427557,7.0,False
+test/algebra/1349.json,math500,0,0,,1,32768,0,cut: loop,16328,0.998,46546,0.24361252374241774,126.0,False
+test/precalculus/927.json,math500,0,0,,1,32768,0,cut: loop,11897,1.0,17031,0.1650126156433978,5.0,False
+test/prealgebra/1139.json,math500,0,0,,1,32768,0,cut: loop,17563,1.0,14210,0.16005923900660743,15.0,False
+test/intermediate_algebra/1197.json,math500,0,0,,1,32768,0,cut: loop,13956,1.0,10194,0.1276794035414725,83.0,False
+test/intermediate_algebra/134.json,math500,0,0,,1,32768,0,cut: loop,12197,1.0,1731,0.021575061525840853,149.0,False
+test/geometry/434.json,math500,0,0,,1,32768,0,cut: whitespace,4776,0.314,-1,,,True
+test/intermediate_algebra/1000.json,math500,0,0,,1,32768,0,cut: loop,12260,1.0,36375,0.6087488778258385,28.0,False
+test/algebra/1098.json,math500,0,1,6+9i,0,2834,1,finished,1462,0.024,-1,,,False
+test/intermediate_algebra/607.json,math500,0,0,,1,32768,0,cut: loop,10621,1.0,17090,0.28245713208969286,20.0,False
+test/algebra/2193.json,math500,0,0,,1,32768,0,cut: loop,14089,1.0,45688,0.574066183780713,21.0,False
+test/algebra/2427.json,math500,0,0,,1,32768,0,cut: loop,22146,1.0,557,0.004291070057364831,18.0,False
+test/intermediate_algebra/1388.json,math500,0,0,,1,32768,0,cut: loop,12120,1.0,33224,0.6228845042516304,5628.0,False
+test/counting_and_probability/134.json,math500,0,0,,1,32768,0,cut: loop,19216,0.998,11371,0.097974907595398,120.0,False
+test/intermediate_algebra/428.json,math500,0,0,,1,32768,1,cut: no loop,11231,0.638,-1,,,False
+test/geometry/627.json,math500,0,0,,1,32768,0,cut: loop,14339,0.998,37054,0.214833938040748,7.0,False
+test/algebra/2214.json,math500,0,0,,1,32768,0,cut: loop,17299,0.998,9902,0.13081193615544762,13.0,False
+test/algebra/305.json,math500,0,0,,1,32768,0,cut: loop,17135,0.998,26131,0.25694768799626344,17.0,False
+test/number_theory/1055.json,math500,0,0,,1,32768,0,cut: loop,20950,1.0,8432,0.06971303060688536,44.0,False
+test/intermediate_algebra/1217.json,math500,0,0,,1,32768,0,cut: loop,14540,0.998,64414,0.8270831899814216,34.0,False
+test/algebra/187.json,math500,0,0,,1,32768,0,cut: loop,14823,0.998,38061,0.39518088552915764,59.0,False
+test/algebra/722.json,math500,0,0,,0,12746,1,finished,4849,0.57,-1,,,False
+test/prealgebra/1247.json,math500,0,0,,1,32768,0,cut: loop,15928,0.998,13769,0.16236417310470447,28.0,False
+test/intermediate_algebra/956.json,math500,0,0,,1,32768,0,cut: loop,14222,1.0,37688,0.5033415406260991,167.0,False
+test/intermediate_algebra/279.json,math500,0,0,0,0,20306,1,finished,7156,0.432,-1,,,False
+test/algebra/2046.json,math500,0,0,,1,32768,0,cut: loop,12212,0.998,25904,0.37034002458009013,104.0,False
+test/prealgebra/1233.json,math500,0,0,,1,32768,0,cut: loop,12611,0.998,16162,0.20882259600126943,77.0,False
+test/precalculus/1313.json,math500,0,0,,1,32768,0,cut: loop,12427,0.998,6188,0.08309178743961353,45.0,False
+test/number_theory/46.json,math500,0,1,40_9,0,16731,1,finished,7663,0.286,-1,,,False
+test/intermediate_algebra/623.json,math500,0,0,,1,32768,1,cut: loop,16575,1.0,21350,0.21312168034765813,101.0,False
+test/algebra/1004.json,math500,0,1,4,0,6308,1,finished,3027,0.036,-1,,,False
+test/prealgebra/192.json,math500,0,1,2,0,2170,1,finished,982,0.0,-1,,,False
+test/intermediate_algebra/1849.json,math500,0,0,,1,32768,0,cut: loop,13945,1.0,49147,0.6887645286267757,15.0,False
+test/algebra/1035.json,math500,0,1,3,0,9728,1,finished,5016,0.178,-1,,,False
+test/intermediate_algebra/2046.json,math500,0,0,,1,32768,0,cut: loop,14307,0.998,9214,0.11720279720279721,8.0,False
+test/algebra/893.json,math500,0,0,,1,32768,0,cut: loop,13588,0.998,9259,0.13725057065017304,18.0,False
+test/geometry/353.json,math500,0,1,\sqrt{5},0,10462,1,finished,5748,0.024,-1,,,False
+test/algebra/2023.json,math500,0,1,1,0,15302,1,finished,8056,0.164,-1,,,False
+test/algebra/873.json,math500,0,1,33,0,20872,1,finished,9152,0.424,-1,,,False
+test/intermediate_algebra/662.json,math500,0,0,,1,32768,0,cut: loop,8472,0.998,20152,0.44028352037802715,4.0,False
+test/prealgebra/105.json,math500,0,0,,1,32768,0,cut: loop,20923,0.998,1854,0.013625932300631095,45.0,False
+test/prealgebra/1924.json,math500,0,1,2k + 2,0,4416,1,finished,2213,0.106,-1,,,False
+test/intermediate_algebra/582.json,math500,0,0,,1,32768,0,cut: loop,9848,0.998,32989,0.5851031399248043,12.0,False
+test/prealgebra/1804.json,math500,0,0,,1,32768,0,cut: loop,11384,1.0,14468,0.1854618968093522,19.0,False
+test/intermediate_algebra/515.json,math500,0,0,,1,32768,0,cut: loop,14905,1.0,18096,0.22875553765606121,143.0,False
+test/precalculus/44.json,math500,0,0,,1,32768,0,cut: loop,12261,1.0,56647,0.8868124693977477,12.0,False
+test/intermediate_algebra/1898.json,math500,0,0,,1,32768,0,cut: loop,11837,0.998,54656,0.8165680473372781,8.0,False
+test/algebra/1332.json,math500,0,1,9,0,7605,1,finished,3232,0.002,-1,,,False
+test/algebra/246.json,math500,0,1,8,0,5407,1,finished,2362,0.078,-1,,,False
+test/prealgebra/1686.json,math500,0,1,4,0,21813,1,finished,9988,0.576,18503,0.3256186754834185,226.0,False
+test/counting_and_probability/430.json,math500,0,0,,1,32768,0,cut: loop,15751,0.998,22858,0.25584349593495936,203.0,False
+test/number_theory/156.json,math500,0,0,,1,32768,0,cut: loop,12471,0.998,57029,0.8916880616174583,27.0,False
+test/counting_and_probability/159.json,math500,0,0,,1,32768,0,cut: loop,25014,1.0,9375,0.06246251049706082,196.0,False
+test/precalculus/477.json,math500,0,0,,1,32768,0,cut: loop,15590,1.0,31134,0.39093884361162806,5.0,False
+test/intermediate_algebra/966.json,math500,0,0,,1,32768,0,cut: loop,9824,0.998,11943,0.2225730875012733,7.0,False
+test/algebra/988.json,math500,0,1,11,0,2262,1,finished,1100,0.038,-1,,,False
+test/number_theory/931.json,math500,0,0,,1,32768,0,cut: no loop,11834,0.094,-1,,,False
+test/intermediate_algebra/964.json,math500,0,0,,1,32768,0,cut: loop,10617,1.0,13683,0.24957587181903865,96.0,False
+test/counting_and_probability/230.json,math500,0,0,,1,32768,0,cut: loop,12080,0.998,35545,0.3260167315497391,51.0,False
+test/geometry/880.json,math500,0,0,,1,32768,1,cut: loop,19086,0.998,9528,0.0725929031919912,170.0,False
+test/intermediate_algebra/1410.json,math500,0,0,,1,32768,0,cut: loop,12498,0.998,37826,0.6611160035225362,36.0,False
+test/algebra/2570.json,math500,0,0,,1,32768,0,cut: loop,12411,1.0,13643,0.16801031925185425,43.0,False
+test/algebra/621.json,math500,0,1,3.21,0,10926,1,finished,4037,0.556,-1,,,False
+test/algebra/1255.json,math500,0,0,,1,32768,0,cut: loop,14819,1.0,11113,0.1213880637321091,26.0,False
+test/prealgebra/1003.json,math500,0,0,,1,32768,0,cut: loop,11162,1.0,5450,0.08220528910802331,8.0,False
+test/counting_and_probability/181.json,math500,0,0,,1,32768,0,cut: loop,19865,1.0,12259,0.09316144626850639,156.0,False
+test/algebra/297.json,math500,0,0,,1,32768,0,cut: loop,11440,1.0,102111,0.7635791130936762,19.0,False
+test/prealgebra/1272.json,math500,0,1,\frac{13}{15},0,2967,1,finished,1341,0.058,-1,,,False
+test/algebra/841.json,math500,0,0,,1,32768,0,cut: loop,12828,0.998,6786,0.096794321815771,27.0,False
+test/algebra/686.json,math500,0,0,,1,32768,0,cut: loop,9463,0.998,18295,0.33989001692047377,4.0,False
+test/intermediate_algebra/991.json,math500,0,0,,1,32768,0,cut: loop,9725,0.998,41854,0.7039514303354599,211.0,False
+test/geometry/65.json,math500,0,0,,1,32768,0,cut: loop,15427,0.998,25349,0.30298313878080413,92.0,False
+test/algebra/1082.json,math500,0,0,,1,32768,0,cut: loop,14335,1.0,34960,0.3791178112786153,8.0,False
+test/intermediate_algebra/183.json,math500,0,0,,1,32768,0,cut: loop,11131,0.998,16778,0.26240560949298813,46.0,False
+test/algebra/2199.json,math500,0,0,,1,32768,0,cut: loop,16370,1.0,33890,0.3220069669376031,45.0,False
+test/algebra/733.json,math500,0,0,,1,32768,0,cut: loop,14359,0.998,12533,0.14144370122630992,60.0,False
+test/counting_and_probability/51.json,math500,0,1,\frac{13}{18},0,26499,1,finished,11635,0.106,-1,,,False
+test/geometry/221.json,math500,0,1,30,0,24026,1,finished,9212,0.066,-1,,,False
+test/intermediate_algebra/1422.json,math500,0,0,,1,32768,0,cut: loop,13697,0.998,12582,0.1681519357195033,9.0,False
+test/counting_and_probability/508.json,math500,0,0,,1,32768,0,cut: loop,19316,1.0,2792,0.022631933295354498,52.0,False
+test/algebra/291.json,math500,0,0,,1,32768,0,cut: loop,18581,1.0,1006,0.008452675783353075,60.0,False
+test/intermediate_algebra/1555.json,math500,0,1,12,0,11404,1,finished,4238,0.144,-1,,,False
+test/precalculus/263.json,math500,0,0,,1,32768,0,cut: loop,12020,1.0,20040,0.2777824023974028,97.0,False
+test/precalculus/541.json,math500,0,1,"(3/2, -13)",0,7963,1,finished,3755,0.03,-1,,,False
+test/algebra/2102.json,math500,0,0,,1,32768,0,cut: loop,16420,1.0,14553,0.16133552671662707,33.0,False
+test/intermediate_algebra/102.json,math500,0,0,,1,32768,0,cut: loop,7831,0.998,30457,0.5957310838445807,6.0,False
+test/counting_and_probability/765.json,math500,0,0,,1,32768,0,cut: loop,15255,1.0,23063,0.2147822665267576,125.0,False
+test/algebra/864.json,math500,0,1,"(-1, 6)",0,1076,1,finished,504,0.006036217303822937,-1,,,False
+test/geometry/547.json,math500,0,0,,1,32768,0,cut: whitespace,12270,1.0,37524,0.2418657750958167,14.0,True
+test/precalculus/1056.json,math500,0,0,,1,32768,0,cut: loop,13496,0.998,29958,0.41418933946178366,24.0,False
+test/prealgebra/2057.json,math500,0,0,,1,32768,0,cut: loop,19305,1.0,44634,0.3642864545548761,32.0,False
+test/algebra/1578.json,math500,0,0,,1,32768,0,cut: loop,15667,1.0,14402,0.1644316730523627,123.0,False
+test/intermediate_algebra/1837.json,math500,0,0,,1,32768,0,cut: loop,10772,1.0,29938,0.569716674407803,4.0,False
+test/geometry/229.json,math500,0,0,,1,32768,0,cut: loop,16441,0.998,16531,0.1801752464403067,74.0,False
+test/algebra/2626.json,math500,0,0,,1,32768,0,cut: whitespace,3553,0.836,31937,0.8719684151156233,97.0,True
+test/geometry/254.json,math500,0,1,3,0,9833,1,finished,5208,0.078,-1,,,False
+test/prealgebra/1251.json,math500,0,0,,1,32768,1,cut: loop,18202,1.0,57603,0.3973619126133553,81.0,False
+test/intermediate_algebra/1210.json,math500,0,0,,1,32768,0,cut: loop,11027,1.0,43863,0.7987295825771324,8.0,False
+test/algebra/1787.json,math500,0,0,,1,32768,1,cut: loop,20580,1.0,543,0.004471880620230399,120.0,False
+test/number_theory/1065.json,math500,0,0,,1,32768,0,cut: loop,11197,0.998,28847,0.4731009830205541,29.0,False
+test/prealgebra/1458.json,math500,0,1,\frac{1}{8},0,10654,1,finished,5974,0.596,-1,,,False
+test/counting_and_probability/1009.json,math500,0,0,,1,32768,0,cut: loop,20518,1.0,1695,0.01409000048754327,52.0,False
+test/prealgebra/1742.json,math500,0,1,\frac{33}{100},0,14874,1,finished,6330,0.162,-1,,,False
+test/geometry/226.json,math500,0,0,,1,32768,0,cut: loop,16898,1.0,6593,0.06482742288792848,25.0,False
+test/algebra/2551.json,math500,0,0,,1,32768,0,cut: loop,13943,0.998,21839,0.259902411021814,7.0,False
+test/algebra/346.json,math500,0,0,,1,32768,0,cut: loop,15727,1.0,34862,0.35489821882951655,20.0,False
+test/number_theory/1287.json,math500,0,1,8,0,15101,1,finished,8066,0.628,-1,,,False
+test/intermediate_algebra/1411.json,math500,0,0,,1,32768,0,cut: loop,17823,1.0,53387,0.5472608890884598,138.0,False
+test/number_theory/631.json,math500,0,0,,1,32768,0,cut: loop,20973,1.0,963,0.007583706954116188,120.0,False
+test/intermediate_algebra/1300.json,math500,0,0,,1,32768,0,cut: loop,12872,0.998,11047,0.15794792071511854,18.0,False
+test/algebra/634.json,math500,0,1,4,0,23279,1,finished,10185,0.274,-1,,,False
+test/precalculus/881.json,math500,0,0,,1,32768,0,cut: no loop,9582,0.576,-1,,,False
+test/counting_and_probability/339.json,math500,0,0,,1,32768,1,cut: loop,15000,0.998,21479,0.23744414059894617,58.0,False
+test/prealgebra/465.json,math500,0,0,,1,32768,0,cut: loop,8398,0.998,6675,0.12859015611965202,13.0,False
+test/intermediate_algebra/446.json,math500,0,0,,1,32768,0,cut: loop,11937,1.0,52989,0.8657166806370494,28.0,False
+test/number_theory/203.json,math500,0,0,,1,32768,1,cut: loop,12515,0.998,16485,0.21170450911416694,33.0,False
+test/number_theory/911.json,math500,0,0,,1,32768,0,cut: loop,16398,1.0,0,0.0,35.0,False
+test/intermediate_algebra/1714.json,math500,0,1,"(5, \infty)",0,12731,1,finished,6331,0.292,-1,,,False
+test/prealgebra/1423.json,math500,0,1,12\pi,0,5119,1,finished,2602,0.0,-1,,,False
+test/intermediate_algebra/2152.json,math500,0,0,,1,32768,0,cut: loop,9652,0.998,33276,0.6082944530844997,4.0,False
+test/prealgebra/954.json,math500,0,1,10,0,16434,1,finished,7435,0.074,-1,,,False
+test/counting_and_probability/870.json,math500,0,0,,1,32768,0,cut: loop,15005,0.998,32263,0.21096146152820375,8.0,False
+test/geometry/465.json,math500,0,0,,1,32768,1,cut: loop,18314,1.0,28778,0.1805320369257661,79.0,False
+test/precalculus/742.json,math500,0,0,,1,32768,0,cut: loop,13558,1.0,23719,0.39709246550070104,13.0,False
+test/intermediate_algebra/117.json,math500,0,0,,1,32768,0,cut: loop,16250,1.0,19356,0.22963738225697222,19.0,False
+test/prealgebra/1973.json,math500,0,1,4,0,1546,1,finished,693,0.018,-1,,,False
+test/counting_and_probability/216.json,math500,0,0,,1,32768,1,cut: no loop,17300,0.22,-1,,,False
+test/intermediate_algebra/190.json,math500,0,0,,1,32768,0,cut: loop,15050,1.0,5594,0.0654789603137672,9.0,False
+test/intermediate_algebra/776.json,math500,0,0,,1,32768,0,cut: loop,13402,1.0,26821,0.35468458379992535,12.0,False
+test/algebra/1457.json,math500,0,1,-120,0,12996,1,finished,5814,0.068,-1,,,False
+test/number_theory/483.json,math500,0,0,,1,32768,0,cut: loop,10776,0.998,9481,0.1938898690686229,6.0,False
+test/intermediate_algebra/1566.json,math500,0,0,,1,32768,0,cut: loop,17404,0.998,26019,0.29470598379030866,82.0,False
+test/intermediate_algebra/1572.json,math500,0,1,5,0,16197,1,finished,7556,0.23,-1,,,False
+test/algebra/1529.json,math500,0,0,,1,32768,0,cut: loop,12465,1.0,40020,0.5687911382244341,49.0,False
+test/algebra/1547.json,math500,0,0,,1,32768,0,cut: loop,10680,0.998,18696,0.2969174552609388,14.0,False
+test/counting_and_probability/116.json,math500,0,1,4495,0,11293,1,finished,3845,0.078,-1,,,False
+test/number_theory/686.json,math500,0,0,,1,32768,0,cut: loop,7051,1.0,15172,0.3268029528676888,8.0,False
+test/precalculus/1281.json,math500,0,0,,1,32768,0,cut: loop,7944,1.0,4735,0.11339296963588258,2.0,False
+test/algebra/1078.json,math500,0,0,,1,32768,0,cut: loop,13266,0.998,22938,0.3227241873444453,59.0,False
+test/prealgebra/1353.json,math500,0,0,,1,32768,0,cut: loop,17029,1.0,36192,0.39137586652567263,66.0,False
+test/intermediate_algebra/860.json,math500,0,1,ellipse,0,17307,1,finished,6967,0.446,-1,,,False
+test/intermediate_algebra/1407.json,math500,0,0,,1,32768,0,cut: loop,11250,1.0,11331,0.16614782531352842,19.0,False
+test/algebra/251.json,math500,0,1,2,0,5081,1,finished,2259,0.014,-1,,,False
+test/intermediate_algebra/690.json,math500,0,0,,1,32768,0,cut: loop,15125,1.0,39329,0.5261277946818362,179.0,False
+test/number_theory/109.json,math500,0,0,,1,32768,0,cut: loop,11058,1.0,7812,0.14261152836847343,4.0,False
+test/algebra/1199.json,math500,0,1,1,0,15355,1,finished,5623,0.326,-1,,,False
+test/precalculus/1289.json,math500,0,1,-41,0,1390,1,finished,606,0.0,-1,,,False
+test/intermediate_algebra/955.json,math500,0,0,,1,32768,0,cut: loop,11366,0.998,21499,0.3978343164010916,37.0,False
+test/geometry/538.json,math500,0,0,,1,32768,0,cut: loop,14935,0.998,59569,0.6783226152197214,19.0,False
+test/prealgebra/1865.json,math500,0,0,,1,32768,0,cut: loop,17705,1.0,16632,0.15883150638490226,147.0,False
+test/intermediate_algebra/1111.json,math500,0,0,,1,32768,0,cut: whitespace,2550,0.194,-1,,,True
+test/algebra/101.json,math500,0,0,,1,32768,0,cut: loop,14428,0.998,31480,0.37521669787116013,36.0,False
+test/algebra/170.json,math500,0,0,,1,32768,0,cut: loop,13610,1.0,22012,0.2481805484084393,53.0,False
+test/algebra/2277.json,math500,0,0,,1,32768,0,cut: no loop,10043,0.276,-1,,,False
+test/algebra/114.json,math500,0,1,4,0,10992,1,finished,3964,0.348,-1,,,False
+test/number_theory/928.json,math500,0,0,,1,32768,0,cut: loop,14028,0.998,17277,0.26467441694600957,39.0,False
+test/number_theory/132.json,math500,0,0,,1,32768,0,cut: loop,11610,1.0,13938,0.1879686288028958,23.0,False
+test/intermediate_algebra/1797.json,math500,0,0,,1,32768,0,cut: loop,11747,0.998,23167,0.23321976149914822,19.0,False
+test/algebra/2391.json,math500,0,0,,1,32768,0,cut: loop,16986,0.998,3683,0.03951940632546087,42.0,False
+test/number_theory/769.json,math500,0,0,,0,21855,1,finished,6235,0.214,-1,,,False
+test/algebra/1796.json,math500,0,1,2\sqrt{5},0,25644,1,finished,11681,0.548,-1,,,False
+test/precalculus/145.json,math500,0,0,,1,32768,0,cut: loop,9074,1.0,20444,0.3292158376530275,8.0,False
+test/precalculus/1202.json,math500,0,0,,1,32768,0,cut: loop,12389,0.998,42904,0.6146018413826523,11.0,False
+test/number_theory/1002.json,math500,0,0,,1,32768,0,cut: loop,10308,1.0,45652,0.7703135617901175,1.0,False
+test/algebra/1339.json,math500,0,1,600,0,3567,1,finished,1276,0.008,-1,,,False
+test/intermediate_algebra/121.json,math500,0,0,,1,32768,0,cut: loop,10901,0.998,48122,0.8170552597760234,5.0,False
+test/prealgebra/2019.json,math500,0,1,4.5,0,5954,1,finished,2955,0.014,-1,,,False
+test/counting_and_probability/10.json,math500,0,0,,1,32768,0,cut: loop,18440,1.0,5808,0.05571529322410893,74.0,False
+test/algebra/1553.json,math500,0,0,,1,32768,0,cut: loop,20189,1.0,3777,0.031116836785254186,20.0,False
+test/intermediate_algebra/199.json,math500,0,0,,1,32768,0,cut: no loop,3820,0.134,-1,,,False
+test/algebra/2080.json,math500,0,1,14,0,5061,1,finished,2127,0.11,-1,,,False
+test/algebra/1343.json,math500,0,0,,1,32768,0,cut: loop,13100,0.998,2623,0.030932559382876347,25.0,False
+test/counting_and_probability/731.json,math500,0,0,,1,32768,0,cut: loop,12419,1.0,40408,0.3631969062197873,54.0,False
+test/algebra/2430.json,math500,0,0,,1,32768,0,cut: loop,9393,1.0,37974,0.668122735989772,10.0,False
+test/prealgebra/996.json,math500,0,1,9,0,13217,1,finished,6053,0.134,-1,,,False
+test/number_theory/1000.json,math500,0,0,,1,32768,0,cut: loop,13866,1.0,20050,0.3493037015657695,35.0,False
+test/algebra/2789.json,math500,0,1,47,0,5421,1,finished,2851,0.106,-1,,,False
+test/number_theory/13.json,math500,0,0,,1,32768,0,cut: no loop,6586,0.0,-1,,,False
+test/algebra/1814.json,math500,0,0,,1,32768,0,cut: no loop,13118,0.76,85059,0.9685760048813973,1116.0,False
+test/intermediate_algebra/1102.json,math500,0,0,,1,32768,0,cut: loop,12754,1.0,54462,0.9029575586412489,14.0,False
+test/algebra/2780.json,math500,0,0,,1,32768,0,cut: loop,12741,0.998,45069,0.6175592900895241,50.0,False
+test/prealgebra/914.json,math500,0,0,,1,32768,0,cut: loop,15053,1.0,6170,0.058154991359829857,49.0,False
+test/algebra/824.json,math500,0,1,12,0,18961,1,finished,7268,0.286,-1,,,False
+test/number_theory/679.json,math500,0,0,,1,32768,1,cut: loop,13597,1.0,8919,0.10559234731420161,29.0,False
+test/intermediate_algebra/834.json,math500,0,1,9,0,13965,1,finished,5669,0.014,-1,,,False
+test/precalculus/703.json,math500,0,0,,1,32768,0,cut: loop,14909,1.0,11323,0.17078244530935444,20.0,False
+test/algebra/435.json,math500,0,1,25,0,2034,1,finished,839,0.004,-1,,,False
+test/intermediate_algebra/752.json,math500,0,0,,1,32768,0,cut: loop,11404,0.998,19853,0.27665175046064755,24.0,False
+test/prealgebra/1252.json,math500,0,0,,1,32768,0,cut: loop,19588,1.0,0,0.0,65.0,False
+test/precalculus/1252.json,math500,0,0,,1,32768,0,cut: loop,9142,1.0,31422,0.4970990695128626,14.0,False
+test/intermediate_algebra/1467.json,math500,0,0,,1,32768,0,cut: loop,14639,1.0,8145,0.09274193548387097,86.0,False
+test/number_theory/1090.json,math500,0,0,,1,32768,0,cut: loop,11392,1.0,4557,0.06455862977602109,2.0,False
+test/precalculus/1082.json,math500,0,0,,1,32768,0,cut: loop,15753,0.998,5814,0.07055760193064906,23.0,False
+test/intermediate_algebra/101.json,math500,0,0,,1,32768,0,cut: loop,6800,0.998,19304,0.4595907551891653,15.0,False
+test/counting_and_probability/199.json,math500,0,0,,1,32768,0,cut: loop,14927,1.0,33592,0.4407506702412869,85.0,False
+test/intermediate_algebra/1350.json,math500,0,0,,1,32768,0,cut: loop,12495,0.998,44377,0.676809737347854,16.0,False
+test/precalculus/356.json,math500,0,0,,1,32768,0,cut: loop,15664,1.0,36497,0.3771476017116944,48.0,False
+test/intermediate_algebra/1930.json,math500,0,0,,1,32768,0,cut: loop,9036,1.0,32093,0.7359619005426957,7.0,False
+test/geometry/561.json,math500,0,0,,1,32768,1,cut: loop,20077,1.0,29464,0.24743398106626807,161.0,False

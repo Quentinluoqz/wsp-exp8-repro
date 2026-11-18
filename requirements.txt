@@ -1,0 +1,7 @@
+# items 1 and 2 (laptop)
+numpy
+pandas
+matplotlib
+tokenizers
+huggingface_hub
+# items 3 and 4 run on Colab: vllm==0.34.0, transformers, torch, datasets, "math-verify[antlr4_13_2]"

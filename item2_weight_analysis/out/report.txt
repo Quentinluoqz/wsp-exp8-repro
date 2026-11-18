@@ -1,0 +1,96 @@
+## 1. Each edited tensor: rank of the change and its residual-stream direction u
+p10c  L10 lin      |D|/|W0|=0.055  s2/s1=0.0033  changed cols=2048
+p10c  L10 mlp      |D|/|W0|=0.051  s2/s1=0.0034  changed cols=3584
+p10c  L11 mlp      |D|/|W0|=0.055  s2/s1=0.0031  changed cols=3584
+p10c  L11 attn     |D|/|W0|=0.060  s2/s1=0.0029  changed cols=2047
+p10c  L12 lin      |D|/|W0|=0.056  s2/s1=0.0033  changed cols=2048
+p10c  L12 mlp      |D|/|W0|=0.048  s2/s1=0.0038  changed cols=3584
+p10c  L13 lin      |D|/|W0|=0.050  s2/s1=0.0037  changed cols=2048
+p10c  L13 mlp      |D|/|W0|=0.049  s2/s1=0.0037  changed cols=3583
+p10c  L14 lin      |D|/|W0|=0.054  s2/s1=0.0035  changed cols=2048
+p10c  L14 mlp      |D|/|W0|=0.048  s2/s1=0.0038  changed cols=3583
+p10c  L15 mlp      |D|/|W0|=0.048  s2/s1=0.0041  changed cols=3584
+p10c  L15 attn     |D|/|W0|=0.045  s2/s1=0.0044  changed cols=2048
+p10c  L16 lin      |D|/|W0|=0.053  s2/s1=0.0035  changed cols=2048
+p10c  L16 mlp      |D|/|W0|=0.039  s2/s1=0.0053  changed cols=3584
+p10c  L17 lin      |D|/|W0|=0.054  s2/s1=0.0037  changed cols=2048
+p10c  L17 mlp      |D|/|W0|=0.040  s2/s1=0.0053  changed cols=3584
+p10c  L18 lin      |D|/|W0|=0.043  s2/s1=0.0047  changed cols=2047
+p10c  L18 mlp      |D|/|W0|=0.034  s2/s1=0.0063  changed cols=3584
+p10c  L19 mlp      |D|/|W0|=0.044  s2/s1=0.0044  changed cols=3582
+p10c  L19 attn     |D|/|W0|=0.042  s2/s1=0.0049  changed cols=2048
+p10c  L20 lin      |D|/|W0|=0.047  s2/s1=0.0041  changed cols=2048
+p10c  L20 mlp      |D|/|W0|=0.037  s2/s1=0.0055  changed cols=3584
+p10c  L21 lin      |D|/|W0|=0.045  s2/s1=0.0044  changed cols=2048
+p10c  L21 mlp      |D|/|W0|=0.041  s2/s1=0.0047  changed cols=3584
+p10c  L22 lin      |D|/|W0|=0.052  s2/s1=0.0036  changed cols=2048
+p10c  L22 mlp      |D|/|W0|=0.044  s2/s1=0.0043  changed cols=3584
+p10c  L8 lin       |D|/|W0|=0.054  s2/s1=0.0036  changed cols=2048
+p10c  L8 mlp       |D|/|W0|=0.046  s2/s1=0.0042  changed cols=3583
+p10c  L9 lin       |D|/|W0|=0.054  s2/s1=0.0035  changed cols=2048
+p10c  L9 mlp       |D|/|W0|=0.053  s2/s1=0.0035  changed cols=3584
+p25c  L15 attn     |D|/|W0|=0.323  s2/s1=0.7776  changed cols=256
+p50c  L15 mlp      |D|/|W0|=0.106  s2/s1=0.0006  changed cols=64
+p50c  L19 mlp      |D|/|W0|=0.081  s2/s1=0.0006  changed cols=64
+p10c: |cos(stored factor a, SVD u)| min=0.999993
+
+## 2. Cosine similarity between directions (|cos|; random pair in R^1024: ~0.025, 99.9% < 0.10)
+p10c among its 30 tensors: |cos| min=0.408 median=0.695 max=1.000
+p10c distinct directions (|cos|>0.9999 merged): 15  (one per layer, shared by its attn/MLP outputs)
+p10c adjacent-layer |cos|: [0.87, 0.81, 0.79, 0.88, 0.88, 0.82, 0.86, 0.93, 0.94, 0.95, 0.93, 0.97, 0.96, 0.89];  L8 vs L22: 0.41
+p50c L15 mlp: vs p10c max=0.717 (at L15 attn), median=0.579, same layer=[0.717, 0.717]
+p50c L19 mlp: vs p10c max=0.677 (at L19 mlp), median=0.615, same layer=[0.677, 0.677]
+p50c u15 vs u19: 0.849
+null |cos| (random unit vectors): mean=0.025, 99.9%=0.102
+
+## 2b. Concentration of u on few residual coordinates (massive-activation dims could fake similarity)
+p10c L8 lin       participation ratio=  112.8 (uniform=1024)  top-5 dims [2, 13, 74, 31, 15] carry 16.2% of |u|^2
+p10c L10 mlp      participation ratio=  143.9 (uniform=1024)  top-5 dims [13, 2, 31, 74, 5] carry 13.2% of |u|^2
+p10c L13 lin      participation ratio=  112.1 (uniform=1024)  top-5 dims [15, 13, 31, 2, 37] carry 15.2% of |u|^2
+p10c L15 mlp      participation ratio=   83.9 (uniform=1024)  top-5 dims [13, 37, 15, 17, 18] carry 18.9% of |u|^2
+p10c L18 lin      participation ratio=   65.1 (uniform=1024)  top-5 dims [17, 18, 37, 15, 13] carry 21.7% of |u|^2
+p10c L20 mlp      participation ratio=   74.2 (uniform=1024)  top-5 dims [17, 0, 15, 37, 18] carry 20.4% of |u|^2
+p50c L15 mlp      participation ratio=   55.1 (uniform=1024)  top-5 dims [37, 0, 5, 18, 15] carry 24.9% of |u|^2
+p50c L15 mlp      participation ratio=   55.1 (uniform=1024)  top-5 dims [37, 0, 5, 18, 15] carry 24.9% of |u|^2
+p50c L19 mlp      participation ratio=   44.3 (uniform=1024)  top-5 dims [0, 37, 18, 5, 15] carry 26.6% of |u|^2
+
+## 3. p50c: the 64 MLP neurons per layer; formula check; overlap with p10c's direction
+L15: alpha median=6.00 (Astra: 6)  residual of rank-1 fit=0.002 (bf16 rounding)
+     selected neurons' rank by |u.W0[:,j]| among 3584: median=69, max=1113  -> 48% are the top-64 writers of u
+     share of the layer's total |u.W0|^2 written by the 64: 25.2%
+     the layer writes along u 1.13x a random direction's amount
+     p10c's L15 mlp direction: its top-64 writers overlap p50c's 64 in 24 neurons (chance ~1.1)
+L19: alpha median=6.00 (Astra: 6)  residual of rank-1 fit=0.003 (bf16 rounding)
+     selected neurons' rank by |u.W0[:,j]| among 3584: median=128, max=2419  -> 28% are the top-64 writers of u
+     share of the layer's total |u.W0|^2 written by the 64: 16.0%
+     the layer writes along u 1.08x a random direction's amount
+     p10c's L19 mlp direction: its top-64 writers overlap p50c's 64 in 15 neurons (chance ~1.1)
+
+## 4. p25c zeroed head 7 of layer 15. Does that head write along the 'loop' directions?
+zeroed columns: 1792..2047 (256) -> head 7
+p50c u15       per-head alignment (x random): h0=0.86 h1=0.65 h2=0.76 h3=0.85 h4=1.10 h5=1.34 h6=1.75 h7=2.05
+p50c u19       per-head alignment (x random): h0=0.85 h1=0.92 h2=0.87 h3=0.84 h4=1.36 h5=1.53 h6=2.17 h7=2.54
+p10c L15 attn  per-head alignment (x random): h0=0.59 h1=0.51 h2=0.71 h3=0.70 h4=0.75 h5=1.11 h6=1.49 h7=1.73
+
+## 5. Logit lens: tokens most promoted at each end of u (u * final-norm weight . embedding)
+final norm weight: mean=3.309 (near 0 -> (1+w) convention, near 1 -> w)
+p50c u15
+   +u: '...*' '...**' 'gangen' 'essin' 'urada' 'ologe' 'kede' 'cante' 'iscos' 'tant' 'skim' '而是因为' 'zada' 'atina' 'ossid'
+   -u: '呗' ' first' ' series' ' f' ' or' ' thereby' '即可' '지요' '.api' ',' ' suit' ' however' 'owitz' ' easily' ' appropriately'
+   max |z| = 5.0
+p50c u19
+   +u: ' first' ' count' '对' ' yields' ' basic' ' result' '即可' 'R' ' exact' ' value' ' appropriately' ' suit' ' numerical' ' using' '相关'
+   -u: '...*' '她还是' '他还是' '...**' '而是因为' ' hanem' 'emies' 'ossid' ' Assinar' 'istou' 'ändern' 'heden' '威夷' ' –**' 'slaught'
+   max |z| = 5.4
+p10c L15 mlp
+   +u: '有下列情形之一的' 'skim' 'rano' '工程专业承包' '五颜六色的' '同期的' '领导班子成员' 'tua' 'ensione' '措并举' 'oraires' '人力资源社会保障' 'enje' 'ionario' 'uchen'
+   -u: '无' ' rather' '先生' 'Ã' '向前走' '/' '("\\\\' ' entry' ' major' '老二' 'ò' '吸' ' state' '义' '项'
+   max |z| = 5.1
+p10c L19 mlp
+   +u: '市委常委' '兼总经理' '有下列情形之一的' '副秘书长' '一年一度的' 'istani' '党总支书记' '纪委书记' 'tua' '五颜六色的' 'inasikan' ' tromb' 'tift' 'uruan' 'bane'
+   -u: ' ' 'box' '实际' '/' '-' '无' '适' '可' '项' '显' '整' ' pair' ' pairs' ',' '0'
+   max |z| = 5.3
+p10c L22 mlp
+   +u: '市委常委' '应急管理局' ' tromb' 'zure' '县委常委' 'ρφ' '传说中的' '市委副书记' 'illing' '党总支书记' '兼总经理' '来不及' '副秘书长' ' dreaded' '政协副主席'
+   -u: ' typically' '对其' ' initially' ' correctly' ' normally' ' usually' 'normally' 'box' '别的' ' properly' ' likely' '按其' ' cub' '和其他' ' rather'
+   max |z| = 6.1

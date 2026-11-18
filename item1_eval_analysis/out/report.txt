@@ -1,0 +1,97 @@
+## A. Accuracy (all samples) / cut share, from per_problem.json and merged.json
+run        unedited   p10c   p25c   p50c
+set                                     
+gsm8k         0.138  0.257  0.251  0.671
+math500       0.079  0.124  0.141  0.481
+minerva       0.015  0.039  0.035  0.254
+olympiad      0.013  0.024  0.039  0.218
+amc23         0.005  0.011  0.011  0.234
+aime24        0.000  0.000  0.000  0.006
+aime25        0.000  0.000  0.000  0.023
+mmlupro1k     0.403  0.400  0.447  0.455
+gpqa          0.227  0.294  0.301  0.366
+ifeval        0.210  0.490  0.399  0.623
+max |recomputed - merged| = 0.0
+
+cut share:
+run        unedited   p10c   p25c   p50c
+set                                     
+gsm8k         0.875  0.728  0.749  0.072
+math500       0.930  0.872  0.864  0.330
+minerva       0.982  0.934  0.956  0.258
+olympiad      0.987  0.973  0.958  0.467
+amc23         0.995  0.989  0.989  0.505
+aime24        1.000  0.996  1.000  0.652
+aime25        1.000  0.998  1.000  0.646
+mmlupro1k     0.289  0.160  0.104  0.005
+gpqa          0.595  0.468  0.242  0.024
+ifeval        0.749  0.216  0.438  0.022
+
+## B0. Proxy check: share of first samples NOT closing </think>  vs released cut_share (all samples)
+          proxy(first)                      released                     
+run           unedited   p10c   p25c   p50c unedited   p10c   p25c   p50c
+amc23            0.975  0.975  1.000  0.250    0.995  0.989  0.989  0.505
+gsm8k            0.895  0.710  0.750  0.060    0.875  0.728  0.749  0.072
+math500          0.935  0.795  0.855  0.240    0.930  0.872  0.864  0.330
+minerva          0.983  0.892  0.917  0.158    0.982  0.934  0.956  0.258
+mmlupro1k        0.260  0.160  0.070  0.000    0.289  0.160  0.104  0.005
+olympiad         0.979  0.975  0.954  0.242    0.987  0.973  0.958  0.467
+
+## B1. What the first samples look like (share of each kind)
+kind      cut: loop  cut: no loop  cut: whitespace  finished
+run                                                         
+unedited      0.848         0.021            0.002     0.129
+p10c          0.743         0.029            0.002     0.226
+p25c          0.763         0.022            0.000     0.214
+p50c          0.046         0.077            0.041     0.837
+
+## B2. Accuracy conditional on finishing (first samples, math sets)
+           mean         size      
+closed    False  True  False True 
+run                               
+unedited  0.008  0.952   758    42
+p10c      0.007  0.798   681   119
+p25c      0.003  0.910   700   100
+p50c      0.000  0.473   147   653
+
+## C. Paired transitions of first samples, unedited -> edited (math sets)
+p10c: n=800  gained=74 (of which base was cut: 74, 100.0%)  lost=20  net=54
+    problems where BOTH finished: n=21  acc unedited=1.000  edited=1.000
+p25c: n=800  gained=62 (of which base was cut: 62, 100.0%)  lost=15  net=47
+    problems where BOTH finished: n=26  acc unedited=1.000  edited=1.000
+p50c: n=800  gained=266 (of which base was cut: 266, 100.0%)  lost=3  net=263
+    problems where BOTH finished: n=40  acc unedited=0.950  edited=0.925
+ run base_closed edit_closed   n  acc_u  acc_e
+p10c       False       False 660  0.006  0.005
+p10c       False        True  98  0.020  0.755
+p10c        True       False  21  0.905  0.095
+p10c        True        True  21  1.000  1.000
+p25c       False       False 684  0.004  0.000
+p25c       False        True  74  0.041  0.878
+p25c        True       False  16  0.875  0.125
+p25c        True        True  26  1.000  1.000
+p50c       False       False 145  0.000  0.000
+p50c       False        True 613  0.010  0.444
+p50c        True       False   2  1.000  0.000
+p50c        True        True  40  0.950  0.925
+ run      set   n  gained  gained_from_cut  lost
+p10c    gsm8k 200    39.0             39.0   9.0
+p10c  math500 200    22.0             22.0   4.0
+p10c  minerva 120     8.0              8.0   3.0
+p10c olympiad 240     4.0              4.0   3.0
+p10c    amc23  40     1.0              1.0   1.0
+p25c    gsm8k 200    32.0             32.0   7.0
+p25c  math500 200    15.0             15.0   4.0
+p25c  minerva 120     7.0              7.0   1.0
+p25c olympiad 240     8.0              8.0   2.0
+p25c    amc23  40     0.0              0.0   1.0
+p50c    gsm8k 200    99.0             99.0   0.0
+p50c  math500 200    79.0             79.0   2.0
+p50c  minerva 120    36.0             36.0   0.0
+p50c olympiad 240    42.0             42.0   1.0
+p50c    amc23  40    10.0             10.0   0.0
+
+## D. Loops in the unedited model (cut first samples, math sets)
+n=738  onset (rel. position) median=0.077  IQR=[0.016, 0.163]
+loop period (words) median=21  IQR=[12, 42]
+words of correct finished samples, unedited median=2779  p50c median=5853
